@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>overdue_needit_task_challenge</internal_name>
+        <label_cache>[{"name":"9ddfbc33-4ae1-48e9-b3b0-4dc1641d967e.follow_up_task","label":"4.1➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"72898c36-4f01-4aea-8758-ac308cc0018a.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"72898c36-4f01-4aea-8758-ac308cc0018a.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"72898c36-4f01-4aea-8758-ac308cc0018a.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"830abc8a-596c-404a-8835-973d3d8e62f7.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"830abc8a-596c-404a-8835-973d3d8e62f7.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"830abc8a-596c-404a-8835-973d3d8e62f7.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"94834e9d-83bc-49e5-9439-ab9f6c935778.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"326c4f5f-11c0-47db-85fb-68d4bb2c61e7.follow_up_task","label":"2➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"a23b3475-e9e3-4bee-a35e-b8ba879af559.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"abbc137f-866e-4d2f-9232-ee58d319a90c.calculated_date","label":"1➛Calculated date","type":"glide_date","base_type":"glide_date"}]</label_cache>
+        <master>true</master>
+        <name>Overdue NeedIt Task Challenge</name>
+        <outputs/>
+        <parent_flow display_value="Overdue NeedIt Task Challenge">6ae6241cdb612300c02e4870399619ff</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-30 06:50:17</sys_created_on>
+        <sys_id>d947f018dba12300c02e487039961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overdue NeedIt Task Challenge</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_286687_needit_sp">e2948494db212300c02e487039961912</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">e2948494db212300c02e487039961912</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d947f018dba12300c02e487039961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-30 06:50:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d947f018dba12300c02e487039961938"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d947f018dba12300c02e487039961938"/>
+</record_update>
